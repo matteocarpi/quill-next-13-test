@@ -1,0 +1,23 @@
+.container > :global(.ql-toolbar) {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.container > :global(.ql-container) {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.container.error > :global(.ql-toolbar) {
+  border-left-color: #e53e3e;
+  border-top-color: #e53e3e;
+  border-right-color: #e53e3e;
+  border-width: 2px;
+}
+
+.container.error > :global(.ql-container) {
+  border-left-color: #e53e3e;
+  border-bottom-color: #e53e3e;
+  border-right-color: #e53e3e;
+  border-width: 2px;
+}
